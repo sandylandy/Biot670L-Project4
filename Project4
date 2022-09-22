@@ -94,6 +94,7 @@ mv output* ${READS}/trimmomatic0.39/
 
 $ sh ./fastqinfo-2.sh -r 125 ./trimmomatic0.39/output_forward_paired.fq.gz ./trimmomatic0.39/output_reverse_paired.fq.gz ./01_readfiltering/ref.fasta > coverage.txt
 
+#add a parse of coverage.txt to determine if row 2 column 5 is >10x, if not end script
 
 
 
